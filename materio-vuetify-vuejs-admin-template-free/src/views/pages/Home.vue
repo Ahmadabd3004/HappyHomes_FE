@@ -58,7 +58,7 @@ export default {
 </script>
 <template>
   <div class="d-flex flex-wrap">
-    <v-card :loading="loading" class="mx-1 my-6 card" max-width="280" v-for="product in products">
+    <v-card :loading="loading" class="mx-1 my-3 card" max-width="280" v-for="product in products">
       <template slot="progress">
         <v-progress-linear color="deep-purple" height="10" indeterminate></v-progress-linear>
       </template>
