@@ -59,10 +59,7 @@ export default {
 <template>
   <div class="d-flex flex-wrap">
     <v-card :loading="loading" class="mx-1 my-3 card" max-width="280" v-for="product in products">
-      <template slot="progress">
-        <v-progress-linear color="deep-purple" height="10" indeterminate></v-progress-linear>
-      </template>
-      <v-img :aspect-ratio="9 / 7" :src="product.images[2]"></v-img>
+      <v-img :aspect-ratio="9 / 7" :src="product.thumbnail"></v-img>
 
       <v-card-title>{{ product.title }}</v-card-title>
       <v-divider class=""></v-divider>

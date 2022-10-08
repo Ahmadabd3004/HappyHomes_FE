@@ -23,9 +23,9 @@ export default {
 
     const resolveLayout = computed(() => {
       // Handles initial route
-      if (route.value.name === null) return null
+      // if (route.value.name === null) return null
 
-      if (route.value.meta.layout === 'blank') return 'layout-blank'
+      // if (route.value.meta.layout === 'blank') return 'layout-blank'
 
       return 'layout-content'
     })

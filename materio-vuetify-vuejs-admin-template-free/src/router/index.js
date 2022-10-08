@@ -6,7 +6,7 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    redirect: 'Home',
+    redirect: 'home',
   },
   {
     path: '/dashboard',
@@ -60,8 +60,8 @@ const routes = [
     },
   },
   {
-    path: '/pages/home',
-    name: 'pages-home',
+    path: '/home',
+    name: 'home',
     component: () => import('@/views/pages/Home.vue'),
   },
   {
