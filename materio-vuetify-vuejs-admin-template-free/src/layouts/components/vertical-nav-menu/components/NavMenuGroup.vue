@@ -1,10 +1,7 @@
 <template>
-  <v-list-group
-    ref="refVListGroup"
-    class="vertical-nav-menu-group text--primary"
-  >
+  <v-list-group ref="refVListGroup" class="vertical-nav-menu-group text--primary">
     <template #prependIcon>
-      <v-icon :class="{'alternate-icon-small': !icon}">
+      <v-icon :class="{ 'alternate-icon-small': !icon }">
         {{ icon }}
       </v-icon>
     </template>
